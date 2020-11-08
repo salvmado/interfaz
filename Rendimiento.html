@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Nancy Monserrat Macías Dorado">
+    <title>interfaz de memoria Cache</title>
+    <link rel="stylesheet" href="/ren.css">
+    
+</head>
+<body>
+    <div class="encierra_todo">
+    <div class="contenedor_principal">
+      <h1>Memoria Cache</h1>
+       <img class="img_memoria" src="/img_interfaz/memoria_cache.png" alt="Imagen de  memoria cache">
+       <button class="bot1" id="myP" onclick="change(this)">On</button>
+        <script>
+            function change(id) {
+              id.innerHTML = "Off";
+              document.getElementById("myP").style.color = "red";
+            }
+            </script>
+    </div>
+    <div class="segundo_contenedor">
+    <div class="contenedor_uno">                                               
+            <h2>Uso</h2>
+            <img class="img_uso" src="/img_interfaz/uso.png" alt="imagen del uso del alamcenamiento de la memoria cache">
+           <div class="utilizado_v">
+            <img class="verde_cuadro" src="/img_interfaz/verde.png" alt="almacenamiento usado">
+            <p>Utilizado 28%</p>
+            </div>
+        <div class="libre_gris">
+            <img class="gris_cuadro" src="/img_interfaz/gris.png" alt="almacenamiento libre">
+            <p>Libre  72%</p>
+        </div>
+            <button class="b2" onclick="mostrar('contenido1')">Graficar Uso</button>
+            <img class="gra" src="/img_interfaz/grafica.png" class="oculto" id="contenido1">
+            <script>
+                function mostrar(id)
+                {
+                    var objeto=document.getElementById(id)
+                    if(objeto.style.display=="block")
+                        objeto.style.display="none";
+                    else
+                        objeto.style.display="block";
+                }
+            </script>
+        </div>
+        <div class="contenedor_dos">
+            <p>Servicio: Habilitada</p>
+            <p>Capacidad: 470GB</p>
+            <p>Tiempo de accesso: 45ns</p>
+            <p>Tipo: Read-Write</p>
+            <p>Cache RAID: RAID 1</p>
+            <p>Estado: Listo</p></pre>
+            <p>Conexión: Bus principal</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

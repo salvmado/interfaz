@@ -1,0 +1,114 @@
+body {
+    background-color: #B2A7FE;
+    margin: 1rem;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .oculto {display:none;}
+
+  h1{
+    color: rgb(252, 252, 252);
+    font-size: 2rem;
+  }
+  .contenedor_principal{
+    background-color: #9B81DB;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+  .img_memoria{
+    width: 30%;
+    height: auto;
+  }
+
+  div{
+      display: flex;
+      flex-direction: column;
+      
+  }
+  .bot1{
+    text-decoration: none;
+    background-color: #7DC7B6;
+    margin:1rem;
+    border: black;
+    padding: 40px;
+    flex-direction: column;
+    
+  }
+  p{
+      font-size: 25px;
+  }
+  .img_uso{
+    width: 70%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .verde_cuadro{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+  .gris_cuadro{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+  .utilizado_v{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+    .libre_gris{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .b2{
+      text-decoration: none;
+      background-color: #91ACFF;
+      margin:3rem;
+      border: black;
+      padding: 20px;
+      position: relative;
+      
+      
+    }
+    .contenedor_uno{
+      width: 40%;
+    margin: 1rem;
+     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #9B81DB;
+    padding: 2rem;
+    }
+    .contenedor_dos{
+      width: 40%;
+      margin: 1rem;
+       border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: #9B81DB;
+      padding: 2rem;
+    }
+    .segundo_contenedor{
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+      height: auto;
+    }
+    .encierra_todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
